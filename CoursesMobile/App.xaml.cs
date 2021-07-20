@@ -10,7 +10,7 @@ namespace CoursesMobile
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new NavigationPageView());
         }
 
         protected override void OnStart()
