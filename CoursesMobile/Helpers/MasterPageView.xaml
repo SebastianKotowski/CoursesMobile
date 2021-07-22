@@ -8,11 +8,11 @@
     <StackLayout>
         <ListView x:Name="NavigationListView" x:FieldModifier="public">
             <ListView.ItemsSource>
-                <x:Array Type="{x:Type bethanysPieShopMobile:MasterNavigationItem}">
-                    <!--<coursesMobile:MasterNavigationItem Title="Home" Icon="home.png" Target="{x:Type helpers:HomePageView}" />
+                <x:Array Type="{x:Type coursesMobile:MasterNavigationItem}">
+                    <coursesMobile:MasterNavigationItem Title="Home" Icon="home.png" Target="{x:Type helpers:HomePageView}" />
                     <coursesMobile:MasterNavigationItem Title="Basket" Icon="basket.png" Target="{x:Type helpers:BasketView}" />
                     <coursesMobile:MasterNavigationItem Title="Contact" Icon="contact.png" Target="{x:Type helpers:ContactusView}" />
-                </x:Array>-->  
+                </x:Array> 
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
                 <DataTemplate>

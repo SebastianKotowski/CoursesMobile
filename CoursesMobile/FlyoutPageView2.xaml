@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoursesMobile.FlyoutPageView2"
+            xmlns:helper="clr-namespace:CoursesMobile.Helpers;assembly=CoursesMobile">
+            
+    <FlyoutPage.Flyout>
+        <helper:MasterPageView x:Name="masterView"></helper:MasterPageView>
+    </FlyoutPage.Flyout>
+    <FlyoutPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <helper:HomePageView></helper:HomePageView>
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Detail>
+</FlyoutPage>

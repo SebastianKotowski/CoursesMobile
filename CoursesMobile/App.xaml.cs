@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CoursesMobile.Helpers;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace CoursesMobile
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new NavigationPageView());
+            MainPage = new FlyoutPageView2();
         }
 
         protected override void OnStart()
